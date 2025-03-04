@@ -20,22 +20,28 @@
             }
             h2 {
                 font-family: "Times New Roman", Times, serif;
-                color: rgb(21, 48, 10); 
+                color: #15300a; 
                 text-align: center;
             }
             title {
                 font-family: "Times New Roman", Times, serif;
                 font-weight:bolder;}
-            img {
-                position:absolute;
-                top: 40%;
-                left: 38%;
-                transform: translate (-38%, -40%);
+            
+                img {
+                position:relative;
+                top: 50%;
+                left: 30%;
+                transform: translate (-30%, -50%);
             }
-           
+            #nav {
+    position: relative;
+    left: -90px;
+    background-color: #15300a; /*Whatever color you want goes here, but in Hexadecimal form*/
+}
         </style>
     </head>
     <body>
+        
     
         <!-- Navbar with Sidebar Toggle Button -->
         <nav class="navbar navbar-dark bg-dark">
@@ -48,7 +54,7 @@
         </nav>
     
         <!-- Sidebar -->
-        <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="sidebarNav">
+        <div class="offcanvas offcanvas-start bg-success text-white" tabindex="-1" id="sidebarNav">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title">Navigation</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
